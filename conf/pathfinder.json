@@ -1,0 +1,88 @@
+[
+  {
+    "name": "România",
+    "enabled": true,
+    "image": "romania.svg",
+    "language_codes": "ro,en",
+    "region_id": "ro",
+    "regions": [],
+    "config": {
+      "contactEmail": "contact@fastplatform.eu",
+      "sentry": {
+        "enabled": false,
+        "environment": "demo",
+        "uri": ""
+      },
+      "apollo": {
+        "fastplatform": {
+          "httpLink": {
+            "uri": "https://demo.fastplatform.local/v1/graphql"
+          },
+          "wsLink": {
+            "uri": "wss://demo.fastplatform.local/v1/graphql"
+          }
+        }
+      },
+      "features": {
+        "broadcast": true,
+        "customFertilizer": false,
+        "demoHolding": true,
+        "externalAgriPlot": false,
+        "externalManagementRestrictionOrRegulationZone": true,
+        "externalProtectedSite": true,
+        "externalSurfaceWater": false,
+        "externalWaterCourse": true,
+        "geotaggedPhoto": true,
+        "iacsSynchronization": true,
+        "nitrogenLimitation": true,
+        "registeredFertilizer": false,
+        "ticket": true,
+        "plotPlantVariety": {
+          "add": true,
+          "delete": true,
+          "display": true,
+          "edit": true,
+          "multiple": false
+        },
+        "plot": {
+          "add": false,
+          "delete": false
+        },
+        "soilDerivedObject": {
+          "display": true
+        },
+        "soilSite": true
+      },
+      "login": {
+        "wellKnownEndpoint": "conf/openid-configuration.json",
+        "appId": "fastplatform-mobile",
+        "appIdDesktop": "fastplatform",
+        "clientId": "fastplatform",
+        "authorization_endpoint": "https://demo.fastplatform.local/openid/authorize",
+        "token_endpoint": "https://demo.fastplatform.local/openid/token",
+        "userinfo_endpoint": "https://demo.fastplatform.local/openid/userinfo"
+      },
+      "media": "",
+      "mapServer": {
+        "tileService": ""
+      },
+      "vectorTilesServers": {
+        "fastplatform": "",
+        "external": ""
+      },
+      "fertilizationAlgorithms": [
+        {
+          "id": "icpa-pmn",
+          "name": "ICPA PMN"
+        }
+      ],
+      "addOns": {
+        "callbackBaseUrl": ""
+      },
+      "photos": {
+        "requiredLocationAccuracyInMeters": 50,
+        "allowPhotosWithoutHeading": true
+      }
+    }
+  }
+]

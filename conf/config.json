@@ -1,0 +1,4 @@
+{
+  "countriesAndRegionsConfigEndpoint": ".",
+  "countriesAndRegionsConfigJSONFile": "conf/pathfinder.json"
+}
