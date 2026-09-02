@@ -25,7 +25,7 @@
       },
       "features": {
         "broadcast": true,
-        "customFertilizer": false,
+        "customFertilizer": true,
         "demoHolding": true,
         "externalAgriPlot": false,
         "externalManagementRestrictionOrRegulationZone": true,
@@ -35,7 +35,7 @@
         "geotaggedPhoto": true,
         "iacsSynchronization": true,
         "nitrogenLimitation": true,
-        "registeredFertilizer": false,
+        "registeredFertilizer": true,
         "ticket": true,
         "plotPlantVariety": {
           "add": true,
@@ -74,6 +74,34 @@
         {
           "id": "icpa-pmn",
           "name": "ICPA PMN"
+        },
+        {
+          "id": "navigator-f3",
+          "name": "Navigator F3"
+        },
+        {
+          "id": "fertilicalc",
+          "name": "Fertilicalc"
+        },
+        {
+          "id": "visione",
+          "name": "Visione"
+        },
+        {
+          "id": "requaferti",
+          "name": "Requaferti"
+        },
+        {
+          "id": "vegsyst",
+          "name": "VegSyst"
+        },
+        {
+          "id": "arc",
+          "name": "ARC"
+        },
+        {
+          "id": "kalkulacky-hnojenie",
+          "name": "Kalkulačky hnojenie"
         }
       ],
       "addOns": {
