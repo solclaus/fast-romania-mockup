@@ -1,0 +1,16 @@
+Geotagged sample photos (generic crop fields, no people)
+
+1. sunflower.jpg
+   File: Field with sunflowers - Lan de floarea soarelui - panoramio.jpg
+   https://commons.wikimedia.org/wiki/File:Field_with_sunflowers_-_Lan_de_floarea_soarelui_-_panoramio.jpg
+   Băleni, Galați, Romania. Used as a stand-in field photo for parcel IL-18407-1.
+
+2. wheat.jpg
+   File: Wheat field approaching harvest - geograph.org.uk - 1419704.jpg
+   https://commons.wikimedia.org/wiki/File:Wheat_field_approaching_harvest_-_geograph.org.uk_-_1419704.jpg
+
+3. maize.jpg
+   File: Lauterach-Corn field-01ASD.jpg
+   https://commons.wikimedia.org/wiki/File:Lauterach-Corn_field-01ASD.jpg
+
+Downloaded via Wikimedia Commons thumbnails for this static stakeholder mockup.
